@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    line-height: 1.6rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style-type: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+input {
+    border-radius: 0 !important;
+    outline: none !important;
+}
+button {
+    border: none !important;
+    outline: none !important;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.logo {
+    width: 60px;
+}
+
+.avatar {
+    width: 60px;
+    border-radius: 100%;
+}
+
+.banner {
+    padding: 70px;
+    background-color: #28B263;
+}
+.banner h2 {
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+.banner p {
+    font-weight: 500;
+    word-spacing: 1px;
+}
+
+.joke-section {
+    background-color: #FCFCFC;
+    
+    padding: 60px 300px !important;
+}
+
+.joke-content {
+    color: gray;
+}
+
+.joke-vote {
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+
+.joke-section .btn {
+    width: 250px;
+    border-radius: 0;
+    color: white;
+}
+
+.vote-up-btn {
+    background-color: #2C7EDB !important;
+    box-shadow: 0px 3px 0px #1C68C0;
+}
+
+.vote-down-btn {
+    background-color: #28B263 !important;
+    box-shadow: 0px 3px 0px #16984E;
+}
+
+footer {
+    padding: 30px 300px;
+    
+}
+
+footer span {
+    font-size: 14px;
+    color: gray;
+}
+
+footer p {
+    font-size: 15px;
+}
