@@ -1,0 +1,89 @@
+@media (min-width: 576px) and (max-width: 1024px) {
+    .navbar {
+        padding: 8px 40px !important;
+    }
+
+    .logo {
+        width: 40px;
+    }
+    
+    .avatar {
+        width: 40px;
+    }
+
+    .navbar li span {
+        font-size: 12px !important;
+    }
+
+    .navbar li p {
+        font-size: 13px !important;
+    }
+    
+    .banner {
+        padding: 40px;
+        background-color: #28B263;
+    }
+
+    .joke-section {
+        padding: 60px 80px !important;
+    }
+
+    .joke-section .btn {
+        width: 190px;
+    }
+
+    footer {
+        padding: 30px 80px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding: 8px 20px !important;
+    }
+
+    .logo {
+        width: 30px;
+    }
+    
+    .avatar {
+        width: 30px;
+    }
+
+    .navbar li span {
+        font-size: 11px !important;
+    }
+
+    .navbar li p {
+        font-size: 12px !important;
+    }
+    
+    .banner {
+        padding: 40px;
+        background-color: #28B263;
+    }
+
+    .banner p:first-child {
+        letter-spacing: 0;
+        margin-bottom: 16px !important;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .banner p:last-child {
+        font-weight: normal;
+        word-spacing: 0;
+        font-size: 13px;
+    }
+
+    .joke-section {
+        padding: 50px 40px !important;
+    }
+
+    .joke-section .btn {
+        width: 150px;
+    }
+
+    footer {
+        padding: 20px 40px; 
+    }
+}

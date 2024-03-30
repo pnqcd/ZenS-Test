@@ -30,6 +30,10 @@ p {
     margin-bottom: 0 !important;
 }
 
+.navbar {
+    padding: 10px 240px !important;
+}
+
 .logo {
     width: 60px;
 }
@@ -43,19 +47,22 @@ p {
     padding: 70px;
     background-color: #28B263;
 }
-.banner h2 {
+.banner p:first-child {
     letter-spacing: 2px;
-    margin-bottom: 12px;
+    margin-bottom: 12px !important;
+    font-size: 30px;
+    font-weight: 500;
 }
-.banner p {
+.banner p:last-child {
     font-weight: 500;
     word-spacing: 1px;
+    font-size: 13px;
 }
 
 .joke-section {
     background-color: #FCFCFC;
     
-    padding: 60px 300px !important;
+    padding: 60px 260px !important;
 }
 
 .joke-content {
@@ -68,7 +75,7 @@ p {
 }
 
 .joke-section .btn {
-    width: 250px;
+    width: 240px;
     border-radius: 0;
     color: white;
 }
@@ -84,8 +91,7 @@ p {
 }
 
 footer {
-    padding: 30px 300px;
-    
+    padding: 30px 260px; 
 }
 
 footer span {
