@@ -37,23 +37,21 @@
     
     <div class="container-fluid joke-section">
         <div class="row joke-content">
-            <span>A child asked his father, "How were people born?" So his father said, "Adam and Eve made babies, then their babies became adults and made babies, and so on."
-                The child then went to his mother, asked her the same question and she told him, "We were monkeys then we evolved to become like we are now."
-                The child ran back to his father and said, "You lied to me!" His father replied, "No, your mom was talking about her side of the family."
-                
-                <hr class="mt-4" style="width: 80%; color:rgb(190, 190, 190); margin: auto;">
-            </span>
+            <p id="joke-text">
+                Loading...
+            </p>
+            <hr class="mt-4" style="width: 80%; color:rgb(190, 190, 190); margin: auto;">
         </div>
 
         <div class="row d-flex justify-content-center align-items-center g-2 mt-4 joke-vote">
             <div class="col text-end me-2">
-                <button type="button" class="btn vote-up-btn">
+                <button type="button" class="btn" id="vote-up-btn">
                     This is Funny!
                 </button>
             </div>
 
             <div class="col text-start ms-2">
-                <button type="button" class="btn vote-down-btn">
+                <button type="button" class="btn" id="vote-down-btn">
                     This is not funny.
                 </button>
             </div>
@@ -73,6 +71,8 @@
         
     </footer>
     <hr class="m-0" style="color: gray;">
+
+    <script src="./assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

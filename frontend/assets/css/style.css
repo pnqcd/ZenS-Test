@@ -80,12 +80,12 @@ p {
     color: white;
 }
 
-.vote-up-btn {
+#vote-up-btn {
     background-color: #2C7EDB !important;
     box-shadow: 0px 3px 0px #1C68C0;
 }
 
-.vote-down-btn {
+#vote-down-btn {
     background-color: #28B263 !important;
     box-shadow: 0px 3px 0px #16984E;
 }
